@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Continuar</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    a.telegram-button {
+      display: inline-block;
+      background-color: #0088cc;
+      color: #fff;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    a.telegram-button:hover {
+      background-color: #007ab8;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      a.telegram-button {
+        font-size: 1.25rem;
+        padding: 1rem 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main role="main">
+    <h1>Se você deseja continuar, clique abaixo 👇</h1>
+    <a 
+      class="telegram-button" 
+      href="https://chat.trepybot.top/liviadias" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      aria-label="Abrir link externo"
+    >
+      Continuar
+    </a>
+  </main>
+</body>
+</html>
